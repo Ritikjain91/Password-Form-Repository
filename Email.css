@@ -1,0 +1,178 @@
+form {
+    max-width: 400px;
+  margin: auto;
+  background-color: transparent;
+}
+  
+  
+ .ChEmail h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+top:7rem;
+right:14em;
+    font-weight: bolder;
+
+  }
+  
+  /* Style for the first label and input */
+  .label1 {
+    position: relative;
+ 
+    margin-bottom: 18em;
+    
+    right:23rem ;
+    Top:23rem ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(4, 47, 93);
+    font-size: 1.3rem;
+
+  }
+  
+  .input1 {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0e0000;
+    border-radius: 4px;
+    background-color:White ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700rem;
+    font-size: larger;
+  }
+ 
+  .label2 {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    Top:7rem ;
+    right: 23rem;
+    color: rgb(4, 47, 93);
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+  }
+  
+  .input2 {
+    width: 100%;
+    padding: 0.7em;
+   
+    box-sizing: border-box;
+    border: 1px solid #070000;
+    border-radius: 4px;
+    background-color:White ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600rem;
+    font-size: larger;
+    
+  }
+  
+  /* Style for the third label and input */
+  .label3 {
+    position: relative;
+    display: block;
+    height: 300%;
+    color: rgb(4, 47, 93);
+  
+    margin-bottom: 13px;
+    left: 13rem;
+    Top:10.5rem ;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  }
+  
+  .input3 {
+    position: relative;
+    width: 100%;
+    bottom:10%;
+ 
+   
+    margin-bottom: 9em;
+    box-sizing: border-box;
+    padding:0.7em 0.7em;
+    border: 1px solid #080000;
+    border-radius: 4px;
+    background-color:White ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100rem;
+    font-size: larger;
+
+  }
+  
+  button {
+    position: relative;
+    background-color: rgb(7, 4, 85);
+    color: white;
+    padding: 1em 5em;
+    border: none;
+    left:0% ;
+    font-weight: bolder;
+ margin-top: 4rem;
+width: 20rem;
+   
+
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c2564;
+  }
+  
+
+
+  @media (min-width: 200px)and (max-width: 1200px) {
+    .label1, .label2 {
+        position: relative;
+      right: 0em; /* Reset the right property */
+      display: block; /* Stack vertically */
+   margin: auto;
+      
+     
+    }
+  
+    .label3 {
+        position:relative;
+      width: 80%; /* Make the input take up the full width */
+      display: block; /* Stack vertically */
+      left:0rem;
+    margin-top: 8rem;
+     
+      
+      
+      
+      
+    }
+  
+    .input1, .input2 {
+        position: relative;
+      width: 100%; /* Make the inputs take up the full width */
+      display: block; /* Stack vertically */
+     
+      margin: 0 2;
+      
+    }
+  
+    .input3 {
+      position: relative;
+    width: 125%; /* Adjusted from 130% to 100% */
+      display: block; /* Stack vertically */
+      right: 0rem; /* Adjusted from 15rem to 0rem */
+      margin-top: auto;
+     
+    }
+  
+    .ChEmail h1 {
+      left: 0rem;
+    }
+  
+    button {
+      left: 0; /* Reset the left property */
+      display: block; /* Stack vertically */
+      margin-bottom: 1rem;
+    }
+  }

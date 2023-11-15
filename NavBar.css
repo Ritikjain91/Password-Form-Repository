@@ -1,0 +1,45 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 47, 93);
+    height: 4vh;
+  }
+  
+  .Nav h1 {
+    text-align: left;
+    background-color: rgb(4, 47, 93);
+    padding: 2rem;
+    color: white;
+    font-size:2em ;
+    font-weight:bolder ;
+
+  }
+  
+  .Nav p {
+    position: relative;
+    align-self: flex-end;
+    bottom: 5.7rem;
+    font-size: 1.8rem;
+    padding: 1.0rem 1.2rem;
+    background-color: white;
+    border-radius: 50%;
+    right: 3rem;
+    color: rgb(4, 47, 93);
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .Nav {
+      height: auto; /* Adjust the height for small screens */
+    }
+  
+    .Nav h1 {
+      padding: 3rem; /* Reduce the padding for small screens */
+    }
+  
+    .Nav p {
+      font-size: 1.2rem; /* Reduce the font size for small screens */
+      padding: 0.5rem 0.6rem; /* Reduce the padding for small screens */
+    }
+  }
+  
